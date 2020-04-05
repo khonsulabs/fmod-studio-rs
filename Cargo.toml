@@ -1,0 +1,14 @@
+[package]
+name = "fmod-studio"
+version = "0.1.0"
+authors = ["Jonathan Johnson <jon@khonsulabs.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+fmod-sys = {version = "0.1", features=["studio"]}
+thiserror = "1.0"
+
+[dev-dependencies]
+pancurses = "0.16"
